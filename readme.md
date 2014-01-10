@@ -8,3 +8,5 @@ In order to set the proper application environment you need to assign `NODE_ENV`
   export NODE_ENV=integration
   export NODE_ENV=production
 ```
+
+... to be continued ;)
