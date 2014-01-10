@@ -1,7 +1,7 @@
 {
   "development": {
     "mode": "development",
-    "port": 3000
+    "port": 3010
   },
   "integration": {
     "mode": "integration",
