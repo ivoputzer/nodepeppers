@@ -1,0 +1,14 @@
+{
+  "development": {
+    "mode": "development",
+    "port": 3000
+  },
+  "integration": {
+    "mode": "integration",
+    "port": 4000
+  },
+  "production": {
+    "mode": "production",
+    "port": 5000
+  }
+}

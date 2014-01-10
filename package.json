@@ -1,0 +1,14 @@
+{
+  "name": "application-name",
+  "description": "application-description",
+  "author": "application-author",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "3.4.1",
+    "jade": "*",
+    "stylus": "*",
+    "colors": "*",
+    "mocha": "*"
+  }
+}
