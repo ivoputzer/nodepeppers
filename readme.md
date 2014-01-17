@@ -17,7 +17,7 @@ Install
 ===
 
 ```
-$ git clone https://github.com/ivoputzer/nodepeppers <dirname>
+$ git clone https://github.com/ivoputzer/nodepeppers.git <dirname>
 $ cd <dirname>
 $ npm install
 ```
