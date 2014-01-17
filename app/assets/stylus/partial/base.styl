@@ -1,0 +1,66 @@
+@keyframes colors
+  0%
+    background-color #fbcf61
+    color #fbcf61
+  20%
+    background-color #6bd57e
+    color #6bd57e
+  40%
+    background-color #ff6f6f
+    color #ff6f6f
+  60%
+    background-color #57cff4
+    color #57cff4
+  80%
+    background-color #0ed4c8
+    color #0ed4c8
+  100%
+    background-color #fbcf61
+    color #fbcf61
+
+html
+  height 100%
+
+body
+  min-height 100%
+  padding-top 10%
+  animation colors 20s infinite
+
+  h1
+    font-size 75px
+    color rgba(255, 255, 255, 0.8)
+    padding-top 0px
+    text-align center
+    transition margin-top 0.8s ease 2s
+
+  .error
+    line-height 230px
+    font-size 100px
+    color rgba(255, 255, 255, 0.8)
+    text-align center
+
+    margin 0 auto
+    width 250px
+    height 250px
+    border 10px solid rgba(255, 255, 255, 0.8)
+    border-radius 50%
+    transition border-radius 0.8s ease 1s
+
+    &:hover
+      border-radius 0
+
+  .banner
+    background-color #fff
+    padding 40px
+    font-size 50px
+    text-align center
+    letter-spacing 3px
+    box-shadow 0px 0px 0px 8px rgba(0, 0, 0, 0.15)
+
+    p
+      padding 0
+      margin 0 0 20px 0
+      color #777
+      letter-spacing 5px
+      font-size 20px
+      text-transform uppercase

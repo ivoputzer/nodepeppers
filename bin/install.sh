@@ -1,9 +1,13 @@
 #!/usr/bin/env sh
 
-mkdir -vp ./app/ ./static/ ./bin/ ./log/ ./tmp/
+mkdir -vp ./app/ ./app/assets/ ./app/assets/images/ ./app/assets/stylus/ ./app/assets/stylus/partial/ ./app/assets/stylus/vendor/ ./app/config/ ./app/utils/ ./app/lang/ ./app/models/ ./app/routes/ ./app/tests/ ./app/views/
 
-mkdir -vp ./app/assets/ ./app/routes/ ./app/tests/ ./app/views/ ./app/config/ ./app/models/ ./app/utils/ ./app/lang/
+mkdir -vp ./bin/
 
-mkdir -vp ./app/assets/stylus/ ./app/assets/images/
+mkdir -vp ./lib/
 
-mkdir -vp ./static/css/ ./static/js/ ./static/ico/ ./static/img/ ./static/js/ ./static/font/
+mkdir -vp ./log/
+
+mkdir -vp ./opt/ ./opt/puppet/ ./opt/puppet/manifests/ ./opt/puppet/modules/
+
+mkdir -vp ./www/ ./www/css/ ./www/js/ ./www/ico/ ./www/img/ ./www/js/ ./www/font/

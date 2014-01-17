@@ -1,14 +1,22 @@
 {
-  "name": "application-name",
-  "description": "application-description",
-  "author": "application-author",
-  "version": "0.0.0",
+  "name": "nodepeppers-application-name",
+  "description": "nodepeppers-application-description",
+  "author": "Ivo von Putzer Reibegg",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "express": "3.4.1",
+    "express": "*",
+    "forever": "*",
     "jade": "*",
-    "stylus": "*",
-    "colors": "*",
-    "mocha": "*"
+    "stylus": "*"
+  },
+  "scripts": {
+    "install": "./bin/install.sh",
+    "start": "command -v node-dev > /dev/null 2>&1 && node-dev server.js || node server.js",
+    "test": "mocha --require should --reporter spec app/tests/*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
   }
 }

@@ -4,15 +4,11 @@ html(lang='it')
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
     title=title
-    meta(name="description", content=description)
-    meta(name="author", content=author)
-    meta(name="viewport", content='width=device-width, initial-scale=1')
-    link(rel='stylesheet', href='/css/reset.css')
-    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css')
+    meta(name='description', content=description)
+    meta(name='author', content=author)
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/css/main.css')
+    script(defer, src='js/prefixfree.min.js')
   body
-    block header
     block content
-    block footer
-      footer
-        // script(defer, src='/js/script.js')
-        script(defer, src='//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js')
+    block javascript
