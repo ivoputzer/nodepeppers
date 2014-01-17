@@ -12,7 +12,7 @@
   },
   "scripts": {
     "install": "./bin/install.sh",
-    "start": "if command -v node-devx > /dev/null 2>&1; then node-devx server.js; else node server.js; fi",
+    "start": "if command -v node-dev > /dev/null 2>&1; then node-dev server.js; else node server.js; fi",
     "forever": "rm -rf \"`pwd`/log/forever.log\"; ./node_modules/forever/bin/forever start --minUptime 1000 --spinSleepTime 1000 -l \"`pwd`/log/forever.log\" server.js",
     "test": "mocha --require should --reporter spec app/tests/*"
   },
