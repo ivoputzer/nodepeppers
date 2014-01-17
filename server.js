@@ -1,2 +1,1 @@
-require('./lib/cls')
-require('./lib/app')
+require('./lib/cls'), require('./lib/app')
