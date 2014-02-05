@@ -1,1 +1,3 @@
-require('./lib/cls'), require('./lib/app')
+require('mootools')
+require('./lib/cls')
+require('./lib/app')
