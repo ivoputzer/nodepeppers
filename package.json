@@ -1,6 +1,6 @@
 {
-  "name": "nodepeppers-application-name",
-  "description": "nodepeppers-application-description",
+  "name": "nodepeppers",
+  "description": "nodepeppers",
   "author": "Ivo von Putzer Reibegg",
   "version": "1.0.0",
   "private": true,
