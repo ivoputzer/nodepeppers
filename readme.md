@@ -7,7 +7,7 @@ Nodepeppers is a boilerplate application for my fellows at [xpeppers](http://xpe
 - [jade](http://jade-lang.com) template engine with a slick markup
 - [stylus](http://learnboost.github.io/stylus) css preprocessor for linear stylesheets
 - [forever](https://github.com/nodejitsu/forever) script execution monitor
-- [mocha](http://visionmedia.github.io/mocha/) testing framework along with
+- [mocha](http://mochajs.org/) testing framework along with
 - [should](https://github.com/visionmedia/should.js) awesome assertion library
 
 Yet to come:
